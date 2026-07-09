@@ -1,6 +1,6 @@
 # @ltikit/adapter-memory
 
-In-memory `NonceStore` + `PlatformStore` for [LTIkit](https://github.com/alasim/ltikit) —
+In-memory `NonceStore` + `PlatformStore` for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk) —
 **dev and tests only.** State is per-process and lost on restart, so it cannot enforce single-use
 nonces across serverless invocations. Do not use in production.
 
@@ -27,14 +27,14 @@ Registration** works out of the box in dev — the platform auto-onboards via `l
 
 ## Docs
 
-- [Storage adapters](https://alasim.github.io/ltikit/guides/storage/)
-- [Quickstart](https://alasim.github.io/ltikit/getting-started/quickstart/)
-- [API reference](https://alasim.github.io/ltikit/api/adapter-memory/src/)
+- [Storage adapters](https://liberate-labs.github.io/ltikit-sdk/guides/storage/)
+- [Quickstart](https://liberate-labs.github.io/ltikit-sdk/getting-started/quickstart/)
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/adapter-memory/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT

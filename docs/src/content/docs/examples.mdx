@@ -11,7 +11,7 @@ LTIkit working against a real LMS before wiring your own app.
 
 <Aside type="tip">
 New here? Start with **memory-demo** — no database, no Docker, nothing to install beyond the repo
-itself. It's the exact code from the root [README Quickstart](https://github.com/alasim/ltikit#quickstart),
+itself. It's the exact code from the root [README Quickstart](https://github.com/Liberate-Labs/ltikit-sdk#quickstart),
 runnable.
 </Aside>
 
@@ -21,28 +21,28 @@ runnable.
     Dynamic Registration + cookieless **Platform Storage**. Trade-off: state resets on server
     restart — re-register after each restart.
 
-    [Open on GitHub →](https://github.com/alasim/ltikit/tree/main/examples/memory-demo)
+    [Open on GitHub →](https://github.com/Liberate-Labs/ltikit-sdk/tree/main/examples/memory-demo)
   </Card>
   <Card title="next-prisma-demo — persistent, zero-setup" icon="seti:db">
     **Next.js + Prisma/SQLite + NextAuth.** Same zero-external-service simplicity, but state
     survives restarts. Full parity: SSO, deep linking, AGS, NRPS, Dynamic Registration, cookieless
     Platform Storage, plus a seeded login page for direct (non-LMS) visits.
 
-    [Open on GitHub →](https://github.com/alasim/ltikit/tree/main/examples/next-prisma-demo)
+    [Open on GitHub →](https://github.com/Liberate-Labs/ltikit-sdk/tree/main/examples/next-prisma-demo)
   </Card>
   <Card title="next-demo — Supabase stack" icon="seti:db">
     **Next.js + Supabase.** The minimal loop (SSO → deep link → grade → roster). Ships a bundled
     local Supabase project (Docker) with the ltikit tables as a migration, so you can run it
     end-to-end locally or point it at your own Supabase.
 
-    [Open on GitHub →](https://github.com/alasim/ltikit/tree/main/examples/next-demo)
+    [Open on GitHub →](https://github.com/Liberate-Labs/ltikit-sdk/tree/main/examples/next-demo)
   </Card>
 </CardGrid>
 
 ## Run it in under a minute (memory-demo)
 
 ```bash
-git clone https://github.com/alasim/ltikit
+git clone https://github.com/Liberate-Labs/ltikit-sdk
 cd ltikit
 pnpm install
 

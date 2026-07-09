@@ -1,11 +1,11 @@
 # @ltikit/core
 
-Runtime-agnostic **LTI 1.3 (LTI Advantage)** core for [LTIkit](https://github.com/alasim/ltikit) —
+Runtime-agnostic **LTI 1.3 (LTI Advantage)** core for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk) —
 just [`jose`](https://github.com/panva/jose) + `fetch`. No framework, no database, no `Express`,
 no `MongoDB`. Runs on Node, edge, Cloudflare Workers, Deno, Bun.
 
 **Always required.** Every LTIkit tool depends on this package. See
-[Which packages do I need?](https://alasim.github.io/ltikit/getting-started/how-it-fits/#which-packages-do-i-need)
+[Which packages do I need?](https://liberate-labs.github.io/ltikit-sdk/getting-started/how-it-fits/#which-packages-do-i-need)
 if you're not sure what else to add.
 
 ```bash
@@ -39,15 +39,15 @@ Then wire routes with [`@ltikit/next`](https://www.npmjs.com/package/@ltikit/nex
 
 ## Docs
 
-- [How it fits together](https://alasim.github.io/ltikit/getting-started/how-it-fits/) — the required-core-vs-optional-slots map
-- [Quickstart](https://alasim.github.io/ltikit/getting-started/quickstart/)
-- [Capabilities](https://alasim.github.io/ltikit/reference/capabilities/) — what's implemented
-- [API reference](https://alasim.github.io/ltikit/api/core/src/)
+- [How it fits together](https://liberate-labs.github.io/ltikit-sdk/getting-started/how-it-fits/) — the required-core-vs-optional-slots map
+- [Quickstart](https://liberate-labs.github.io/ltikit-sdk/getting-started/quickstart/)
+- [Capabilities](https://liberate-labs.github.io/ltikit-sdk/reference/capabilities/) — what's implemented
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/core/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT

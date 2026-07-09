@@ -8,7 +8,7 @@ Runtime-, storage-, and framework-agnostic **LTI 1.3 (LTI Advantage)** toolkit f
 
 Runs on serverless and edge (Next.js, Hono, Cloudflare Workers, Lambda) — no Express, no MongoDB. Bring your own database via small adapters. Verified live against **Canvas** and **MoodleCloud**: SSO, deep linking, grade passback (AGS), and roster (NRPS).
 
-> **Status (1.0-rc):** the full launch loop + LTI Advantage services (deep linking, AGS, NRPS), **Dynamic Registration**, and **cookieless launches (Platform Storage)** — live-verified against Canvas + MoodleCloud, with an auth-agnostic session seam. See the [**Roadmap**](https://alasim.github.io/ltikit/roadmap/) and [Capabilities](https://alasim.github.io/ltikit/reference/capabilities/) for the path to a complete LTI 1.3 toolkit (internal build process: [`ROADMAP.md`](./ROADMAP.md), design: [`DESIGN.md`](./DESIGN.md)).
+> **Status (1.0-rc):** the full launch loop + LTI Advantage services (deep linking, AGS, NRPS), **Dynamic Registration**, and **cookieless launches (Platform Storage)** — live-verified against Canvas + MoodleCloud, with an auth-agnostic session seam. See the [**Roadmap**](https://liberate-labs.github.io/ltikit-sdk/roadmap/) and [Capabilities](https://liberate-labs.github.io/ltikit-sdk/reference/capabilities/) for the path to a complete LTI 1.3 toolkit (internal build process: [`ROADMAP.md`](./ROADMAP.md), design: [`DESIGN.md`](./DESIGN.md)).
 
 ## Quickstart
 
@@ -54,7 +54,7 @@ import { lti } from '@/lib/lti'
 export const GET = jwks(lti)
 ```
 
-That's a working tool. This exact code is runnable as [`examples/memory-demo`](./examples/memory-demo) — clone the repo and it's a real LTI tool in under a minute. Full [Quickstart](https://alasim.github.io/ltikit/getting-started/quickstart/) covers the keypair + LMS registration steps.
+That's a working tool. This exact code is runnable as [`examples/memory-demo`](./examples/memory-demo) — clone the repo and it's a real LTI tool in under a minute. Full [Quickstart](https://liberate-labs.github.io/ltikit-sdk/getting-started/quickstart/) covers the keypair + LMS registration steps.
 
 ## Examples
 
@@ -66,7 +66,7 @@ Prefer to run something end-to-end first? Three complete reference tools do the 
 | [`examples/next-prisma-demo`](./examples/next-prisma-demo) | Next.js + Prisma/SQLite + NextAuth | **Zero external service, persistent.** Full parity + Dynamic Registration, cookieless Platform Storage, seeded login page. |
 | [`examples/next-demo`](./examples/next-demo) | Next.js + Supabase | Minimal loop; ships a bundled local Supabase (Docker) or point it at your own. |
 
-New to LTIkit? Start with **memory-demo** — it's the Quickstart above, runnable. See the [Examples guide](https://alasim.github.io/ltikit/examples/) for run steps on all three.
+New to LTIkit? Start with **memory-demo** — it's the Quickstart above, runnable. See the [Examples guide](https://liberate-labs.github.io/ltikit-sdk/examples/) for run steps on all three.
 
 ## Why
 
@@ -87,7 +87,7 @@ For production, swap the memory adapter above for a real store — add **one** f
 | Hand-rolled framework, your own storage | `npm i @ltikit/core` |
 | Local dev / tests only | `npm i -D @ltikit/core @ltikit/adapter-memory` |
 
-See [How it fits together](https://alasim.github.io/ltikit/getting-started/how-it-fits/) for the full map.
+See [How it fits together](https://liberate-labs.github.io/ltikit-sdk/getting-started/how-it-fits/) for the full map.
 
 ## Packages
 
@@ -117,12 +117,8 @@ Monorepo: pnpm workspaces + Changesets. `@ltikit/core` is lint-enforced to depen
 
 ## Support
 
-LTIkit is free, open source, and maintained solo. If you'd rather not wire up Canvas/Moodle
-registration, grade passback, deep linking, or Platform Storage yourself, I offer paid setup help:
+LTIkit is free and open source, maintained by Liberate Labs.
 
-- **Book a call:** [cal.com/alasim/30min](https://cal.com/alasim/30min)
-- **Email:** [alasim.mail@gmail.com](mailto:alasim.mail@gmail.com)
+- **Email:** [hasanmahmud@liberate-labs.com](mailto:hasanmahmud@liberate-labs.com)
 
-A paid setup call is currently the best way to support ongoing maintenance — a tip jar (GitHub
-Sponsors) is planned but not live yet. See [Need help?](https://alasim.github.io/ltikit/support/)
-in the docs.
+See [Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) in the docs.

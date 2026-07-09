@@ -1,6 +1,6 @@
 # @ltikit/next
 
-Next.js App Router route-handler bindings for [LTIkit](https://github.com/alasim/ltikit) — built on
+Next.js App Router route-handler bindings for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk) — built on
 Web-standard `Request`/`Response`, **no `next` dependency**. Works in any App Router route.
 
 **Pick one framework binding** (this, [`@ltikit/hono`](https://www.npmjs.com/package/@ltikit/hono),
@@ -39,15 +39,15 @@ import { platformStorage } from '@ltikit/next/client'
 
 ## Docs
 
-- [Framework bindings](https://alasim.github.io/ltikit/guides/frameworks/)
-- [Running in an iframe](https://alasim.github.io/ltikit/guides/iframe/)
-- [Quickstart](https://alasim.github.io/ltikit/getting-started/quickstart/)
-- [API reference](https://alasim.github.io/ltikit/api/next/src/)
+- [Framework bindings](https://liberate-labs.github.io/ltikit-sdk/guides/frameworks/)
+- [Running in an iframe](https://liberate-labs.github.io/ltikit-sdk/guides/iframe/)
+- [Quickstart](https://liberate-labs.github.io/ltikit-sdk/getting-started/quickstart/)
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/next/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT

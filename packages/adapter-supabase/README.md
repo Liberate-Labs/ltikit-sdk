@@ -1,6 +1,6 @@
 # @ltikit/adapter-supabase
 
-Supabase/Postgres `PlatformStore` + `NonceStore` for [LTIkit](https://github.com/alasim/ltikit).
+Supabase/Postgres `PlatformStore` + `NonceStore` for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk).
 Bring your own Supabase project; this adds two small tables and maps them to the core stores.
 
 Requires [`@ltikit/core`](https://www.npmjs.com/package/@ltikit/core).
@@ -93,14 +93,14 @@ will fail against the wrong columns.)
 
 ## Docs
 
-- [Supabase adapter setup](https://alasim.github.io/ltikit/guides/supabase-adapter/)
-- [Storage adapters](https://alasim.github.io/ltikit/guides/storage/)
-- [API reference](https://alasim.github.io/ltikit/api/adapter-supabase/src/)
+- [Supabase adapter setup](https://liberate-labs.github.io/ltikit-sdk/guides/supabase-adapter/)
+- [Storage adapters](https://liberate-labs.github.io/ltikit-sdk/guides/storage/)
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/adapter-supabase/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT

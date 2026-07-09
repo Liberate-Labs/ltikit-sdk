@@ -1,6 +1,6 @@
 # ltikit — Roadmap (internal build process)
 
-> **Public feature roadmap:** <https://alasim.github.io/ltikit/roadmap/> (+ the [Capabilities matrix](https://alasim.github.io/ltikit/reference/capabilities/)). That's the user-facing view of what's shipped/partial/planned toward a complete LTI 1.3 toolkit. **This file** is the internal, phase-based delivery process.
+> **Public feature roadmap:** <https://liberate-labs.github.io/ltikit-sdk/roadmap/> (+ the [Capabilities matrix](https://liberate-labs.github.io/ltikit-sdk/reference/capabilities/)). That's the user-facing view of what's shipped/partial/planned toward a complete LTI 1.3 toolkit. **This file** is the internal, phase-based delivery process.
 
 Phased, **review-gated** delivery. We complete **one phase at a time**; at the end of each phase I present the deliverable + exit criteria, you review, and only on your **confirm** do we start the next phase. See `DESIGN.md` for architecture.
 

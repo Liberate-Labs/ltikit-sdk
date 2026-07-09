@@ -1,6 +1,6 @@
 # @ltikit/adapter-redis
 
-Redis / Upstash **`NonceStore`** adapter for [LTIkit](https://github.com/alasim/ltikit) — ideal for
+Redis / Upstash **`NonceStore`** adapter for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk) — ideal for
 serverless, where in-memory state can't enforce single-use nonces across cold invocations. Single-use
 is enforced by an atomic `GETDEL`.
 
@@ -34,13 +34,13 @@ import { fromUpstash, fromIoRedis, fromNodeRedis } from '@ltikit/adapter-redis'
 
 ## Docs
 
-- [Storage adapters](https://alasim.github.io/ltikit/guides/storage/)
-- [API reference](https://alasim.github.io/ltikit/api/adapter-redis/src/)
+- [Storage adapters](https://liberate-labs.github.io/ltikit-sdk/guides/storage/)
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/adapter-redis/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT

@@ -3,14 +3,14 @@
   "version": "1.0.0-rc.4",
   "description": "In-memory NonceStore/PlatformStore adapters for ltikit — dev + testing.",
   "license": "MIT",
-  "author": "alasim <alasim.mail@gmail.com> (https://github.com/alasim)",
-  "homepage": "https://alasim.github.io/ltikit/guides/storage/",
+  "author": "Liberate Labs <hasanmahmud@liberate-labs.com>",
+  "homepage": "https://liberate-labs.github.io/ltikit-sdk/guides/storage/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alasim/ltikit.git",
+    "url": "https://github.com/Liberate-Labs/ltikit-sdk.git",
     "directory": "packages/adapter-memory"
   },
-  "bugs": "https://github.com/alasim/ltikit/issues",
+  "bugs": "https://github.com/Liberate-Labs/ltikit-sdk/issues",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

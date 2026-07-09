@@ -7,8 +7,8 @@ import starlightLlmsTxt from 'starlight-llms-txt'
 
 // GitHub Pages project site. If you fork/rename, update `site` (owner) and `base`
 // (repo name). For a user/root site or custom domain, set base to '/'.
-const SITE = 'https://alasim.github.io'
-const BASE = '/ltikit'
+const SITE = 'https://liberate-labs.github.io'
+const BASE = '/ltikit-sdk'
 
 export default defineConfig({
   site: SITE,
@@ -31,7 +31,7 @@ export default defineConfig({
         { tag: 'meta', attrs: { name: 'twitter:image', content: `${SITE}${BASE}/og.png` } },
         { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
       ],
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/alasim/ltikit' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Liberate-Labs/ltikit-sdk' }],
       plugins: [
         // Generates /llms.txt + /llms-full.txt for LLM-friendly consumption.
         starlightLlmsTxt(),

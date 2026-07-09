@@ -66,4 +66,4 @@ Dynamic Registration before your next launch.
 
 - Want state that survives a restart? [`examples/next-prisma-demo`](../next-prisma-demo) is the
   next step up — same zero-external-service simplicity (SQLite), but persistent.
-- Full production storage: [Storage adapters](https://alasim.github.io/ltikit/guides/storage/).
+- Full production storage: [Storage adapters](https://liberate-labs.github.io/ltikit-sdk/guides/storage/).

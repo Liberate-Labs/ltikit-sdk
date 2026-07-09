@@ -1,6 +1,6 @@
 # @ltikit/adapter-prisma
 
-Prisma `PlatformStore` + `NonceStore` for [LTIkit](https://github.com/alasim/ltikit) — works against
+Prisma `PlatformStore` + `NonceStore` for [LTIkit](https://github.com/Liberate-Labs/ltikit-sdk) — works against
 **any Prisma-supported database** (SQLite, Postgres, MySQL, ...). Bring your own Prisma schema; this
 adds two small models and maps them to the core stores.
 
@@ -50,13 +50,13 @@ models above satisfies it automatically.
 
 ## Docs
 
-- [Storage adapters](https://alasim.github.io/ltikit/guides/storage/)
-- [API reference](https://alasim.github.io/ltikit/api/adapter-prisma/src/)
+- [Storage adapters](https://liberate-labs.github.io/ltikit-sdk/guides/storage/)
+- [API reference](https://liberate-labs.github.io/ltikit-sdk/api/adapter-prisma/src/)
 
 ## Links
 
-[Repository](https://github.com/alasim/ltikit) ·
-[Issues](https://github.com/alasim/ltikit/issues) ·
-[Need help?](https://alasim.github.io/ltikit/support/) — paid setup/integration help available.
+[Repository](https://github.com/Liberate-Labs/ltikit-sdk) ·
+[Issues](https://github.com/Liberate-Labs/ltikit-sdk/issues) ·
+[Need help?](https://liberate-labs.github.io/ltikit-sdk/support/) — paid setup/integration help available.
 
 MIT
