@@ -1,5 +1,15 @@
 # @ltikit/hono
 
+## 1.0.0-rc.5
+
+### Patch Changes
+
+- Correct package metadata (`repository`, `homepage`, `bugs`, `author`) to point at the
+  `Liberate-Labs/ltikit-sdk` repo and org contact — npm still served the previous personal-repo
+  metadata from the prior publish. No functional changes.
+- Updated dependencies
+  - @ltikit/core@1.0.0-rc.5
+
 ## 1.0.0-rc.4
 
 ### Patch Changes

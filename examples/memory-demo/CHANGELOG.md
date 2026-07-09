@@ -1,5 +1,14 @@
 # @ltikit/example-memory-demo
 
+## 0.0.1-rc.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @ltikit/core@1.0.0-rc.5
+  - @ltikit/next@1.0.0-rc.5
+  - @ltikit/adapter-memory@1.0.0-rc.5
+
 ## 0.0.1-rc.3
 
 ### Patch Changes

@@ -16,6 +16,7 @@
   },
   "changesets": [
     "capability-links-canvas-submission",
+    "fix-package-metadata-ownership",
     "freeze-1-0-rc",
     "npm-metadata-readmes",
     "republish-rc4-next-tarball-fix",
